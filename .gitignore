@@ -1,0 +1,23 @@
+# Cache et fichiers temporaires Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Checkpoints Jupyter (versions automatiques sauvegardées par Jupyter)
+.ipynb_checkpoints/
+
+# Environnements virtuels (si tu en utilises un)
+venv/
+env/
+.venv/
+
+# Fichiers système macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Fichiers temporaires d'éditeurs
+*.swp
+*~
+
+# Fichiers de configuration locale (si tu en crées un jour, ex. clés API)
+.env
